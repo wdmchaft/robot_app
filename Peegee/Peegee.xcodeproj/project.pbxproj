@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4E31B02143FBF8A00F5A25D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E31B01143FBF8A00F5A25D /* UIKit.framework */; };
+		F4E31B04143FBF8A00F5A25D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E31B03143FBF8A00F5A25D /* Foundation.framework */; };
+		F4E31B06143FBF8A00F5A25D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E31B05143FBF8A00F5A25D /* CoreGraphics.framework */; };
+		F4E31B0C143FBF8A00F5A25D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4E31B0A143FBF8A00F5A25D /* InfoPlist.strings */; };
+		F4E31B0E143FBF8A00F5A25D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E31B0D143FBF8A00F5A25D /* main.m */; };
+		F4E31B12143FBF8A00F5A25D /* PeegeeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E31B11143FBF8A00F5A25D /* PeegeeAppDelegate.m */; };
+		F4E31B15143FBF8A00F5A25D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E31B13143FBF8A00F5A25D /* MainWindow.xib */; };
+		F4E31B18143FBF8B00F5A25D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E31B17143FBF8B00F5A25D /* FirstViewController.m */; };
+		F4E31B1B143FBF8B00F5A25D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E31B1A143FBF8B00F5A25D /* SecondViewController.m */; };
+		F4E31B1E143FBF8B00F5A25D /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E31B1C143FBF8B00F5A25D /* FirstView.xib */; };
+		F4E31B21143FBF8B00F5A25D /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E31B1F143FBF8B00F5A25D /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4E31AFD143FBF8A00F5A25D /* Peegee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peegee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E31B01143FBF8A00F5A25D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4E31B03143FBF8A00F5A25D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4E31B05143FBF8A00F5A25D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4E31B09143FBF8A00F5A25D /* Peegee-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Peegee-Info.plist"; sourceTree = "<group>"; };
+		F4E31B0B143FBF8A00F5A25D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4E31B0D143FBF8A00F5A25D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4E31B0F143FBF8A00F5A25D /* Peegee-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Peegee-Prefix.pch"; sourceTree = "<group>"; };
+		F4E31B10143FBF8A00F5A25D /* PeegeeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeegeeAppDelegate.h; sourceTree = "<group>"; };
+		F4E31B11143FBF8A00F5A25D /* PeegeeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeegeeAppDelegate.m; sourceTree = "<group>"; };
+		F4E31B14143FBF8A00F5A25D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F4E31B16143FBF8B00F5A25D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		F4E31B17143FBF8B00F5A25D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		F4E31B19143FBF8B00F5A25D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F4E31B1A143FBF8B00F5A25D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F4E31B1D143FBF8B00F5A25D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		F4E31B20143FBF8B00F5A25D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4E31AFA143FBF8A00F5A25D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E31B02143FBF8A00F5A25D /* UIKit.framework in Frameworks */,
+				F4E31B04143FBF8A00F5A25D /* Foundation.framework in Frameworks */,
+				F4E31B06143FBF8A00F5A25D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4E31AF2143FBF8A00F5A25D = {
+			isa = PBXGroup;
+			children = (
+				F4E31B07143FBF8A00F5A25D /* Peegee */,
+				F4E31B00143FBF8A00F5A25D /* Frameworks */,
+				F4E31AFE143FBF8A00F5A25D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4E31AFE143FBF8A00F5A25D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4E31AFD143FBF8A00F5A25D /* Peegee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4E31B00143FBF8A00F5A25D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4E31B01143FBF8A00F5A25D /* UIKit.framework */,
+				F4E31B03143FBF8A00F5A25D /* Foundation.framework */,
+				F4E31B05143FBF8A00F5A25D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4E31B07143FBF8A00F5A25D /* Peegee */ = {
+			isa = PBXGroup;
+			children = (
+				F4E31B10143FBF8A00F5A25D /* PeegeeAppDelegate.h */,
+				F4E31B11143FBF8A00F5A25D /* PeegeeAppDelegate.m */,
+				F4E31B13143FBF8A00F5A25D /* MainWindow.xib */,
+				F4E31B16143FBF8B00F5A25D /* FirstViewController.h */,
+				F4E31B17143FBF8B00F5A25D /* FirstViewController.m */,
+				F4E31B19143FBF8B00F5A25D /* SecondViewController.h */,
+				F4E31B1A143FBF8B00F5A25D /* SecondViewController.m */,
+				F4E31B1C143FBF8B00F5A25D /* FirstView.xib */,
+				F4E31B1F143FBF8B00F5A25D /* SecondView.xib */,
+				F4E31B08143FBF8A00F5A25D /* Supporting Files */,
+			);
+			path = Peegee;
+			sourceTree = "<group>";
+		};
+		F4E31B08143FBF8A00F5A25D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4E31B09143FBF8A00F5A25D /* Peegee-Info.plist */,
+				F4E31B0A143FBF8A00F5A25D /* InfoPlist.strings */,
+				F4E31B0D143FBF8A00F5A25D /* main.m */,
+				F4E31B0F143FBF8A00F5A25D /* Peegee-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4E31AFC143FBF8A00F5A25D /* Peegee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E31B24143FBF8B00F5A25D /* Build configuration list for PBXNativeTarget "Peegee" */;
+			buildPhases = (
+				F4E31AF9143FBF8A00F5A25D /* Sources */,
+				F4E31AFA143FBF8A00F5A25D /* Frameworks */,
+				F4E31AFB143FBF8A00F5A25D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Peegee;
+			productName = Peegee;
+			productReference = F4E31AFD143FBF8A00F5A25D /* Peegee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4E31AF4143FBF8A00F5A25D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F4E31AF7143FBF8A00F5A25D /* Build configuration list for PBXProject "Peegee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4E31AF2143FBF8A00F5A25D;
+			productRefGroup = F4E31AFE143FBF8A00F5A25D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4E31AFC143FBF8A00F5A25D /* Peegee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4E31AFB143FBF8A00F5A25D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E31B0C143FBF8A00F5A25D /* InfoPlist.strings in Resources */,
+				F4E31B15143FBF8A00F5A25D /* MainWindow.xib in Resources */,
+				F4E31B1E143FBF8B00F5A25D /* FirstView.xib in Resources */,
+				F4E31B21143FBF8B00F5A25D /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4E31AF9143FBF8A00F5A25D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E31B0E143FBF8A00F5A25D /* main.m in Sources */,
+				F4E31B12143FBF8A00F5A25D /* PeegeeAppDelegate.m in Sources */,
+				F4E31B18143FBF8B00F5A25D /* FirstViewController.m in Sources */,
+				F4E31B1B143FBF8B00F5A25D /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4E31B0A143FBF8A00F5A25D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E31B0B143FBF8A00F5A25D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4E31B13143FBF8A00F5A25D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E31B14143FBF8A00F5A25D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F4E31B1C143FBF8B00F5A25D /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E31B1D143FBF8B00F5A25D /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		F4E31B1F143FBF8B00F5A25D /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E31B20143FBF8B00F5A25D /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4E31B22143FBF8B00F5A25D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4E31B23143FBF8B00F5A25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4E31B25143FBF8B00F5A25D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Peegee/Peegee-Prefix.pch";
+				INFOPLIST_FILE = "Peegee/Peegee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4E31B26143FBF8B00F5A25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Peegee/Peegee-Prefix.pch";
+				INFOPLIST_FILE = "Peegee/Peegee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4E31AF7143FBF8A00F5A25D /* Build configuration list for PBXProject "Peegee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E31B22143FBF8B00F5A25D /* Debug */,
+				F4E31B23143FBF8B00F5A25D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E31B24143FBF8B00F5A25D /* Build configuration list for PBXNativeTarget "Peegee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E31B25143FBF8B00F5A25D /* Debug */,
+				F4E31B26143FBF8B00F5A25D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4E31AF4143FBF8A00F5A25D /* Project object */;
+}
