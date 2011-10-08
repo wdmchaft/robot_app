@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42C89B3514405F53001FC62C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 42C89B3414405F53001FC62C /* Default.png */; };
 		F4550769143FCADB00F5378A /* irc_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F4550768143FCADB00F5378A /* irc_button.png */; };
 		F455076C143FCB2000F5378A /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = F455076B143FCB2000F5378A /* 20-gear2.png */; };
 		F455076E143FCBF800F5378A /* 69-display.png in Resources */ = {isa = PBXBuildFile; fileRef = F455076D143FCBF800F5378A /* 69-display.png */; };
@@ -36,7 +35,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		42C89B3414405F53001FC62C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F4550768143FCADB00F5378A /* irc_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = irc_button.png; sourceTree = "<group>"; };
 		F455076B143FCB2000F5378A /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
 		F455076D143FCBF800F5378A /* 69-display.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "69-display.png"; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 		F4E31AF2143FBF8A00F5A25D = {
 			isa = PBXGroup;
 			children = (
-				42C89B3414405F53001FC62C /* Default.png */,
 				F4E31B07143FBF8A00F5A25D /* Peegee */,
 				F4E31B00143FBF8A00F5A25D /* Frameworks */,
 				F4E31AFE143FBF8A00F5A25D /* Products */,
@@ -230,7 +227,6 @@
 				F4550774143FCE8800F5378A /* 12-eye.png in Resources */,
 				F4550776143FD11300F5378A /* Screenshot.png in Resources */,
 				F4550778143FE19000F5378A /* pg_icon.png in Resources */,
-				42C89B3514405F53001FC62C /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +306,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -334,7 +330,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
