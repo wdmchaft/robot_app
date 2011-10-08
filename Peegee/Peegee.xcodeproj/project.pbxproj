@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4550769143FCADB00F5378A /* irc_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F4550768143FCADB00F5378A /* irc_button.png */; };
+		F455076C143FCB2000F5378A /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = F455076B143FCB2000F5378A /* 20-gear2.png */; };
+		F455076E143FCBF800F5378A /* 69-display.png in Resources */ = {isa = PBXBuildFile; fileRef = F455076D143FCBF800F5378A /* 69-display.png */; };
+		F4550770143FCC6000F5378A /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = F455076F143FCC6000F5378A /* chat.png */; };
+		F4550772143FCE2900F5378A /* 08-chat.png in Resources */ = {isa = PBXBuildFile; fileRef = F4550771143FCE2900F5378A /* 08-chat.png */; };
+		F4550774143FCE8800F5378A /* 12-eye.png in Resources */ = {isa = PBXBuildFile; fileRef = F4550773143FCE8800F5378A /* 12-eye.png */; };
+		F4550776143FD11300F5378A /* Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = F4550775143FD11300F5378A /* Screenshot.png */; };
 		F4E31B02143FBF8A00F5A25D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E31B01143FBF8A00F5A25D /* UIKit.framework */; };
 		F4E31B04143FBF8A00F5A25D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E31B03143FBF8A00F5A25D /* Foundation.framework */; };
 		F4E31B06143FBF8A00F5A25D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E31B05143FBF8A00F5A25D /* CoreGraphics.framework */; };
@@ -14,13 +21,26 @@
 		F4E31B0E143FBF8A00F5A25D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E31B0D143FBF8A00F5A25D /* main.m */; };
 		F4E31B12143FBF8A00F5A25D /* PeegeeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E31B11143FBF8A00F5A25D /* PeegeeAppDelegate.m */; };
 		F4E31B15143FBF8A00F5A25D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E31B13143FBF8A00F5A25D /* MainWindow.xib */; };
-		F4E31B18143FBF8B00F5A25D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E31B17143FBF8B00F5A25D /* FirstViewController.m */; };
-		F4E31B1B143FBF8B00F5A25D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E31B1A143FBF8B00F5A25D /* SecondViewController.m */; };
-		F4E31B1E143FBF8B00F5A25D /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E31B1C143FBF8B00F5A25D /* FirstView.xib */; };
-		F4E31B21143FBF8B00F5A25D /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E31B1F143FBF8B00F5A25D /* SecondView.xib */; };
+		F4E31B18143FBF8B00F5A25D /* OverviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E31B17143FBF8B00F5A25D /* OverviewController.m */; };
+		F4E31B1B143FBF8B00F5A25D /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E31B1A143FBF8B00F5A25D /* LiveViewController.m */; };
+		F4E31B1E143FBF8B00F5A25D /* Overview.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E31B1C143FBF8B00F5A25D /* Overview.xib */; };
+		F4E31B21143FBF8B00F5A25D /* LiveView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E31B1F143FBF8B00F5A25D /* LiveView.xib */; };
+		F4E31B2B143FC2E200F5A25D /* ChatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E31B27143FC2E200F5A25D /* ChatView.xib */; };
+		F4E31B2C143FC2E200F5A25D /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E31B29143FC2E200F5A25D /* SettingsView.xib */; };
+		F4E31B31143FC31600F5A25D /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E31B2E143FC31600F5A25D /* ChatViewController.m */; };
+		F4E31B32143FC31600F5A25D /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E31B30143FC31600F5A25D /* SettingsViewController.m */; };
+		F4E31B38143FC93900F5A25D /* IRCView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E31B36143FC93900F5A25D /* IRCView.m */; };
+		F4E31B39143FC93900F5A25D /* IRCView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E31B37143FC93900F5A25D /* IRCView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F4550768143FCADB00F5378A /* irc_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = irc_button.png; sourceTree = "<group>"; };
+		F455076B143FCB2000F5378A /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
+		F455076D143FCBF800F5378A /* 69-display.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "69-display.png"; sourceTree = "<group>"; };
+		F455076F143FCC6000F5378A /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		F4550771143FCE2900F5378A /* 08-chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "08-chat.png"; sourceTree = "<group>"; };
+		F4550773143FCE8800F5378A /* 12-eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12-eye.png"; sourceTree = "<group>"; };
+		F4550775143FD11300F5378A /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
 		F4E31AFD143FBF8A00F5A25D /* Peegee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peegee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E31B01143FBF8A00F5A25D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F4E31B03143FBF8A00F5A25D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,12 +52,21 @@
 		F4E31B10143FBF8A00F5A25D /* PeegeeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeegeeAppDelegate.h; sourceTree = "<group>"; };
 		F4E31B11143FBF8A00F5A25D /* PeegeeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeegeeAppDelegate.m; sourceTree = "<group>"; };
 		F4E31B14143FBF8A00F5A25D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		F4E31B16143FBF8B00F5A25D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		F4E31B17143FBF8B00F5A25D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		F4E31B19143FBF8B00F5A25D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		F4E31B1A143FBF8B00F5A25D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		F4E31B1D143FBF8B00F5A25D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
-		F4E31B20143FBF8B00F5A25D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		F4E31B16143FBF8B00F5A25D /* OverviewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverviewController.h; sourceTree = "<group>"; };
+		F4E31B17143FBF8B00F5A25D /* OverviewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverviewController.m; sourceTree = "<group>"; };
+		F4E31B19143FBF8B00F5A25D /* LiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveViewController.h; sourceTree = "<group>"; };
+		F4E31B1A143FBF8B00F5A25D /* LiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveViewController.m; sourceTree = "<group>"; };
+		F4E31B1D143FBF8B00F5A25D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Overview.xib; sourceTree = "<group>"; };
+		F4E31B20143FBF8B00F5A25D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LiveView.xib; sourceTree = "<group>"; };
+		F4E31B28143FC2E200F5A25D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ChatView.xib; sourceTree = "<group>"; };
+		F4E31B2A143FC2E200F5A25D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SettingsView.xib; sourceTree = "<group>"; };
+		F4E31B2D143FC31600F5A25D /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		F4E31B2E143FC31600F5A25D /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		F4E31B2F143FC31600F5A25D /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		F4E31B30143FC31600F5A25D /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		F4E31B35143FC93900F5A25D /* IRCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRCView.h; path = ../IRCView.h; sourceTree = "<group>"; };
+		F4E31B36143FC93900F5A25D /* IRCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRCView.m; path = ../IRCView.m; sourceTree = "<group>"; };
+		F4E31B37143FC93900F5A25D /* IRCView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IRCView.xib; path = ../IRCView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +83,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F455076A143FCAE300F5378A /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				F4550775143FD11300F5378A /* Screenshot.png */,
+				F4550773143FCE8800F5378A /* 12-eye.png */,
+				F4550771143FCE2900F5378A /* 08-chat.png */,
+				F455076F143FCC6000F5378A /* chat.png */,
+				F455076D143FCBF800F5378A /* 69-display.png */,
+				F455076B143FCB2000F5378A /* 20-gear2.png */,
+				F4550768143FCADB00F5378A /* irc_button.png */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
 		F4E31AF2143FBF8A00F5A25D = {
 			isa = PBXGroup;
 			children = (
@@ -87,12 +130,22 @@
 				F4E31B10143FBF8A00F5A25D /* PeegeeAppDelegate.h */,
 				F4E31B11143FBF8A00F5A25D /* PeegeeAppDelegate.m */,
 				F4E31B13143FBF8A00F5A25D /* MainWindow.xib */,
-				F4E31B16143FBF8B00F5A25D /* FirstViewController.h */,
-				F4E31B17143FBF8B00F5A25D /* FirstViewController.m */,
-				F4E31B19143FBF8B00F5A25D /* SecondViewController.h */,
-				F4E31B1A143FBF8B00F5A25D /* SecondViewController.m */,
-				F4E31B1C143FBF8B00F5A25D /* FirstView.xib */,
-				F4E31B1F143FBF8B00F5A25D /* SecondView.xib */,
+				F4E31B16143FBF8B00F5A25D /* OverviewController.h */,
+				F4E31B17143FBF8B00F5A25D /* OverviewController.m */,
+				F4E31B19143FBF8B00F5A25D /* LiveViewController.h */,
+				F4E31B1A143FBF8B00F5A25D /* LiveViewController.m */,
+				F4E31B2D143FC31600F5A25D /* ChatViewController.h */,
+				F4E31B2E143FC31600F5A25D /* ChatViewController.m */,
+				F4E31B2F143FC31600F5A25D /* SettingsViewController.h */,
+				F4E31B30143FC31600F5A25D /* SettingsViewController.m */,
+				F4E31B35143FC93900F5A25D /* IRCView.h */,
+				F4E31B36143FC93900F5A25D /* IRCView.m */,
+				F4E31B1C143FBF8B00F5A25D /* Overview.xib */,
+				F4E31B1F143FBF8B00F5A25D /* LiveView.xib */,
+				F4E31B27143FC2E200F5A25D /* ChatView.xib */,
+				F4E31B29143FC2E200F5A25D /* SettingsView.xib */,
+				F4E31B37143FC93900F5A25D /* IRCView.xib */,
+				F455076A143FCAE300F5378A /* Media */,
 				F4E31B08143FBF8A00F5A25D /* Supporting Files */,
 			);
 			path = Peegee;
@@ -158,8 +211,18 @@
 			files = (
 				F4E31B0C143FBF8A00F5A25D /* InfoPlist.strings in Resources */,
 				F4E31B15143FBF8A00F5A25D /* MainWindow.xib in Resources */,
-				F4E31B1E143FBF8B00F5A25D /* FirstView.xib in Resources */,
-				F4E31B21143FBF8B00F5A25D /* SecondView.xib in Resources */,
+				F4E31B1E143FBF8B00F5A25D /* Overview.xib in Resources */,
+				F4E31B21143FBF8B00F5A25D /* LiveView.xib in Resources */,
+				F4E31B2B143FC2E200F5A25D /* ChatView.xib in Resources */,
+				F4E31B2C143FC2E200F5A25D /* SettingsView.xib in Resources */,
+				F4E31B39143FC93900F5A25D /* IRCView.xib in Resources */,
+				F4550769143FCADB00F5378A /* irc_button.png in Resources */,
+				F455076C143FCB2000F5378A /* 20-gear2.png in Resources */,
+				F455076E143FCBF800F5378A /* 69-display.png in Resources */,
+				F4550770143FCC6000F5378A /* chat.png in Resources */,
+				F4550772143FCE2900F5378A /* 08-chat.png in Resources */,
+				F4550774143FCE8800F5378A /* 12-eye.png in Resources */,
+				F4550776143FD11300F5378A /* Screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,8 +235,11 @@
 			files = (
 				F4E31B0E143FBF8A00F5A25D /* main.m in Sources */,
 				F4E31B12143FBF8A00F5A25D /* PeegeeAppDelegate.m in Sources */,
-				F4E31B18143FBF8B00F5A25D /* FirstViewController.m in Sources */,
-				F4E31B1B143FBF8B00F5A25D /* SecondViewController.m in Sources */,
+				F4E31B18143FBF8B00F5A25D /* OverviewController.m in Sources */,
+				F4E31B1B143FBF8B00F5A25D /* LiveViewController.m in Sources */,
+				F4E31B31143FC31600F5A25D /* ChatViewController.m in Sources */,
+				F4E31B32143FC31600F5A25D /* SettingsViewController.m in Sources */,
+				F4E31B38143FC93900F5A25D /* IRCView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,20 +262,36 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		F4E31B1C143FBF8B00F5A25D /* FirstView.xib */ = {
+		F4E31B1C143FBF8B00F5A25D /* Overview.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F4E31B1D143FBF8B00F5A25D /* en */,
 			);
-			name = FirstView.xib;
+			name = Overview.xib;
 			sourceTree = "<group>";
 		};
-		F4E31B1F143FBF8B00F5A25D /* SecondView.xib */ = {
+		F4E31B1F143FBF8B00F5A25D /* LiveView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F4E31B20143FBF8B00F5A25D /* en */,
 			);
-			name = SecondView.xib;
+			name = LiveView.xib;
+			sourceTree = "<group>";
+		};
+		F4E31B27143FC2E200F5A25D /* ChatView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E31B28143FC2E200F5A25D /* en */,
+			);
+			name = ChatView.xib;
+			sourceTree = "<group>";
+		};
+		F4E31B29143FC2E200F5A25D /* SettingsView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E31B2A143FC2E200F5A25D /* en */,
+			);
+			name = SettingsView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -299,6 +381,7 @@
 				F4E31B26143FBF8B00F5A25D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
