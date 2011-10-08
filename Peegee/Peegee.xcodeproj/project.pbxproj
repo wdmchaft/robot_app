@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F43C077E1440633700D31869 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F43C077D1440633700D31869 /* Default@2x.png */; };
+		F43C078114406B3200D31869 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F43C078014406B3200D31869 /* Default.png */; };
 		F4550769143FCADB00F5378A /* irc_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F4550768143FCADB00F5378A /* irc_button.png */; };
 		F455076C143FCB2000F5378A /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = F455076B143FCB2000F5378A /* 20-gear2.png */; };
 		F455076E143FCBF800F5378A /* 69-display.png in Resources */ = {isa = PBXBuildFile; fileRef = F455076D143FCBF800F5378A /* 69-display.png */; };
@@ -35,6 +37,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F43C077D1440633700D31869 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		F43C078014406B3200D31869 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F4550768143FCADB00F5378A /* irc_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = irc_button.png; sourceTree = "<group>"; };
 		F455076B143FCB2000F5378A /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
 		F455076D143FCBF800F5378A /* 69-display.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "69-display.png"; sourceTree = "<group>"; };
@@ -43,7 +47,7 @@
 		F4550773143FCE8800F5378A /* 12-eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12-eye.png"; sourceTree = "<group>"; };
 		F4550775143FD11300F5378A /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
 		F4550777143FE19000F5378A /* pg_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pg_icon.png; path = ../pg_icon.png; sourceTree = "<group>"; };
-		F4E31AFD143FBF8A00F5A25D /* Peegee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peegee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E31AFD143FBF8A00F5A25D /* PG Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PG Remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E31B01143FBF8A00F5A25D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F4E31B03143FBF8A00F5A25D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F4E31B05143FBF8A00F5A25D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,6 +92,7 @@
 		F455076A143FCAE300F5378A /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				F43C077D1440633700D31869 /* Default@2x.png */,
 				F4550777143FE19000F5378A /* pg_icon.png */,
 				F4550775143FD11300F5378A /* Screenshot.png */,
 				F4550773143FCE8800F5378A /* 12-eye.png */,
@@ -103,6 +108,7 @@
 		F4E31AF2143FBF8A00F5A25D = {
 			isa = PBXGroup;
 			children = (
+				F43C078014406B3200D31869 /* Default.png */,
 				F4E31B07143FBF8A00F5A25D /* Peegee */,
 				F4E31B00143FBF8A00F5A25D /* Frameworks */,
 				F4E31AFE143FBF8A00F5A25D /* Products */,
@@ -112,7 +118,7 @@
 		F4E31AFE143FBF8A00F5A25D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4E31AFD143FBF8A00F5A25D /* Peegee.app */,
+				F4E31AFD143FBF8A00F5A25D /* PG Remote.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -182,7 +188,7 @@
 			);
 			name = Peegee;
 			productName = Peegee;
-			productReference = F4E31AFD143FBF8A00F5A25D /* Peegee.app */;
+			productReference = F4E31AFD143FBF8A00F5A25D /* PG Remote.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -227,6 +233,8 @@
 				F4550774143FCE8800F5378A /* 12-eye.png in Resources */,
 				F4550776143FD11300F5378A /* Screenshot.png in Resources */,
 				F4550778143FE19000F5378A /* pg_icon.png in Resources */,
+				F43C077E1440633700D31869 /* Default@2x.png in Resources */,
+				F43C078114406B3200D31869 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +358,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Peegee/Peegee-Prefix.pch";
 				INFOPLIST_FILE = "Peegee/Peegee-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "PG Remote";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -361,7 +369,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Peegee/Peegee-Prefix.pch";
 				INFOPLIST_FILE = "Peegee/Peegee-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "PG Remote";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
