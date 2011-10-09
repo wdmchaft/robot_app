@@ -81,7 +81,7 @@
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 					</object>
 					<reference key="IBUIParentViewController" ref="395037606"/>
-					<string key="IBUINibName">SecondView</string>
+					<string key="IBUINibName">HelpView</string>
 					<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 						<int key="IBUIInterfaceOrientation">1</int>
 						<int key="interfaceOrientation">1</int>
@@ -119,7 +119,7 @@
 							<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						</object>
 						<reference key="IBUIParentViewController" ref="395037606"/>
-						<string key="IBUINibName">FirstView</string>
+						<string key="IBUINibName">SkillsLibView</string>
 						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 							<int key="IBUIInterfaceOrientation">1</int>
 							<int key="interfaceOrientation">1</int>
@@ -339,7 +339,7 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>SecondViewController</string>
+					<string>HelpView</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>iPad_test_appAppDelegate</string>
@@ -347,7 +347,7 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>SecondViewController</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>FirstViewController</string>
+					<string>SkillsLibView</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>
 			</object>

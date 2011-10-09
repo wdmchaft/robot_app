@@ -28,6 +28,12 @@
 		F49F08D0143EF706003F9FD3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F08CF143EF706003F9FD3 /* FirstViewController.m */; };
 		F49F08D3143EF706003F9FD3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F08D2143EF706003F9FD3 /* SecondViewController.m */; };
 		F49F08D6143EF706003F9FD3 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49F08D4143EF706003F9FD3 /* FirstView.xib */; };
+		F4BF49D5144269930028681B /* LH_APP_BLACK.png in Resources */ = {isa = PBXBuildFile; fileRef = F4BF49D4144269930028681B /* LH_APP_BLACK.png */; };
+		F4BF49D8144269AD0028681B /* LH_APP_WHITE.png in Resources */ = {isa = PBXBuildFile; fileRef = F4BF49D7144269AD0028681B /* LH_APP_WHITE.png */; };
+		F4BF49DC14426A260028681B /* SkillsLibView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BF49DA14426A260028681B /* SkillsLibView.m */; };
+		F4BF49DD14426A260028681B /* SkillsLibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4BF49DB14426A260028681B /* SkillsLibView.xib */; };
+		F4BF49E114426AD50028681B /* HelpView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BF49DF14426AD50028681B /* HelpView.m */; };
+		F4BF49E214426AD50028681B /* HelpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4BF49E014426AD50028681B /* HelpView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +48,7 @@
 		F49B78B914426063009072B0 /* 117-todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "117-todo.png"; sourceTree = "<group>"; };
 		F49B78BC1442607E009072B0 /* 139-flags.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "139-flags.png"; sourceTree = "<group>"; };
 		F49B78BE144260D0009072B0 /* 06-magnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06-magnify.png"; sourceTree = "<group>"; };
-		F49F08B5143EF706003F9FD3 /* iPad test app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPad test app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49F08B5143EF706003F9FD3 /* FlexRob iStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlexRob iStudio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49F08B9143EF706003F9FD3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F49F08BB143EF706003F9FD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F49F08BD143EF706003F9FD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,6 +64,14 @@
 		F49F08D1143EF706003F9FD3 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		F49F08D2143EF706003F9FD3 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		F49F08D5143EF706003F9FD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		F4BF49D4144269930028681B /* LH_APP_BLACK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LH_APP_BLACK.png; sourceTree = "<group>"; };
+		F4BF49D7144269AD0028681B /* LH_APP_WHITE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LH_APP_WHITE.png; sourceTree = "<group>"; };
+		F4BF49D914426A260028681B /* SkillsLibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkillsLibView.h; sourceTree = "<group>"; };
+		F4BF49DA14426A260028681B /* SkillsLibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkillsLibView.m; sourceTree = "<group>"; };
+		F4BF49DB14426A260028681B /* SkillsLibView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SkillsLibView.xib; sourceTree = "<group>"; };
+		F4BF49DE14426AD50028681B /* HelpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpView.h; sourceTree = "<group>"; };
+		F4BF49DF14426AD50028681B /* HelpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpView.m; sourceTree = "<group>"; };
+		F4BF49E014426AD50028681B /* HelpView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +108,8 @@
 		F49F08AA143EF706003F9FD3 = {
 			isa = PBXGroup;
 			children = (
+				F4BF49D7144269AD0028681B /* LH_APP_WHITE.png */,
+				F4BF49D4144269930028681B /* LH_APP_BLACK.png */,
 				F49F08BF143EF706003F9FD3 /* iPad test app */,
 				F49F08B8143EF706003F9FD3 /* Frameworks */,
 				F49F08B6143EF706003F9FD3 /* Products */,
@@ -103,7 +119,7 @@
 		F49F08B6143EF706003F9FD3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F49F08B5143EF706003F9FD3 /* iPad test app.app */,
+				F49F08B5143EF706003F9FD3 /* FlexRob iStudio.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,12 +140,18 @@
 				F49F08C8143EF706003F9FD3 /* iPad_test_appAppDelegate.h */,
 				F49F08C9143EF706003F9FD3 /* iPad_test_appAppDelegate.m */,
 				F49F08CB143EF706003F9FD3 /* MainWindow.xib */,
+				F4BF49D914426A260028681B /* SkillsLibView.h */,
+				F4BF49DA14426A260028681B /* SkillsLibView.m */,
 				F49F08CE143EF706003F9FD3 /* FirstViewController.h */,
 				F49F08CF143EF706003F9FD3 /* FirstViewController.m */,
 				F49F08D1143EF706003F9FD3 /* SecondViewController.h */,
 				F49F08D2143EF706003F9FD3 /* SecondViewController.m */,
+				F4BF49DE14426AD50028681B /* HelpView.h */,
+				F4BF49DF14426AD50028681B /* HelpView.m */,
 				F49F08D4143EF706003F9FD3 /* FirstView.xib */,
+				F4BF49DB14426A260028681B /* SkillsLibView.xib */,
 				F49858E514425D7B00B93DAB /* SecondView.xib */,
+				F4BF49E014426AD50028681B /* HelpView.xib */,
 				428B1C9F14425EED00547F77 /* Media */,
 				F49F08C0143EF706003F9FD3 /* Supporting Files */,
 			);
@@ -164,7 +186,7 @@
 			);
 			name = "iPad test app";
 			productName = "iPad test app";
-			productReference = F49F08B5143EF706003F9FD3 /* iPad test app.app */;
+			productReference = F49F08B5143EF706003F9FD3 /* FlexRob iStudio.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -208,6 +230,10 @@
 				F49B78BA14426063009072B0 /* 117-todo.png in Resources */,
 				F49B78BD1442607E009072B0 /* 139-flags.png in Resources */,
 				F49B78BF144260D0009072B0 /* 06-magnify.png in Resources */,
+				F4BF49D5144269930028681B /* LH_APP_BLACK.png in Resources */,
+				F4BF49D8144269AD0028681B /* LH_APP_WHITE.png in Resources */,
+				F4BF49DD14426A260028681B /* SkillsLibView.xib in Resources */,
+				F4BF49E214426AD50028681B /* HelpView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +248,8 @@
 				F49F08CA143EF706003F9FD3 /* iPad_test_appAppDelegate.m in Sources */,
 				F49F08D0143EF706003F9FD3 /* FirstViewController.m in Sources */,
 				F49F08D3143EF706003F9FD3 /* SecondViewController.m in Sources */,
+				F4BF49DC14426A260028681B /* SkillsLibView.m in Sources */,
+				F4BF49E114426AD50028681B /* HelpView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +342,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPad test app/iPad test app-Prefix.pch";
 				INFOPLIST_FILE = "iPad test app/iPad test app-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "FlexRob iStudio";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -325,7 +353,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPad test app/iPad test app-Prefix.pch";
 				INFOPLIST_FILE = "iPad test app/iPad test app-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "FlexRob iStudio";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
