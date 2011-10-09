@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F49858E714425D7B00B93DAB /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49858E514425D7B00B93DAB /* SecondView.xib */; };
 		F49F08BA143EF706003F9FD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49F08B9143EF706003F9FD3 /* UIKit.framework */; };
 		F49F08BC143EF706003F9FD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49F08BB143EF706003F9FD3 /* Foundation.framework */; };
 		F49F08BE143EF706003F9FD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49F08BD143EF706003F9FD3 /* CoreGraphics.framework */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F49858E614425D7B00B93DAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
 		F49F08B5143EF706003F9FD3 /* iPad test app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPad test app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49F08B9143EF706003F9FD3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F49F08BB143EF706003F9FD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,6 +92,7 @@
 				F49F08D1143EF706003F9FD3 /* SecondViewController.h */,
 				F49F08D2143EF706003F9FD3 /* SecondViewController.m */,
 				F49F08D4143EF706003F9FD3 /* FirstView.xib */,
+				F49858E514425D7B00B93DAB /* SecondView.xib */,
 				F49F08C0143EF706003F9FD3 /* Supporting Files */,
 			);
 			path = "iPad test app";
@@ -156,6 +159,7 @@
 				F49F08C4143EF706003F9FD3 /* InfoPlist.strings in Resources */,
 				F49F08CD143EF706003F9FD3 /* MainWindow.xib in Resources */,
 				F49F08D6143EF706003F9FD3 /* FirstView.xib in Resources */,
+				F49858E714425D7B00B93DAB /* SecondView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +180,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		F49858E514425D7B00B93DAB /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49858E614425D7B00B93DAB /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
 		F49F08C2143EF706003F9FD3 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
