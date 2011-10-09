@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		428B1C9714425EE600547F77 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 428B1C9014425EE600547F77 /* 20-gear2.png */; };
+		428B1C9814425EE600547F77 /* 101-gameplan.png in Resources */ = {isa = PBXBuildFile; fileRef = 428B1C9114425EE600547F77 /* 101-gameplan.png */; };
+		428B1C9914425EE600547F77 /* 122-stats.png in Resources */ = {isa = PBXBuildFile; fileRef = 428B1C9214425EE600547F77 /* 122-stats.png */; };
+		428B1C9A14425EE600547F77 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 428B1C9314425EE600547F77 /* Default-Portrait~ipad.png */; };
+		428B1C9B14425EE600547F77 /* LH_APP_BLACK.png in Resources */ = {isa = PBXBuildFile; fileRef = 428B1C9414425EE600547F77 /* LH_APP_BLACK.png */; };
+		428B1C9C14425EE600547F77 /* LH_APP_WHITE.png in Resources */ = {isa = PBXBuildFile; fileRef = 428B1C9514425EE600547F77 /* LH_APP_WHITE.png */; };
+		428B1C9D14425EE600547F77 /* roboticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 428B1C9614425EE600547F77 /* roboticon.png */; };
 		F49858E714425D7B00B93DAB /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49858E514425D7B00B93DAB /* SecondView.xib */; };
 		F49F08BA143EF706003F9FD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49F08B9143EF706003F9FD3 /* UIKit.framework */; };
 		F49F08BC143EF706003F9FD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49F08BB143EF706003F9FD3 /* Foundation.framework */; };
@@ -21,6 +28,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		428B1C9014425EE600547F77 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
+		428B1C9114425EE600547F77 /* 101-gameplan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "101-gameplan.png"; sourceTree = "<group>"; };
+		428B1C9214425EE600547F77 /* 122-stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "122-stats.png"; sourceTree = "<group>"; };
+		428B1C9314425EE600547F77 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		428B1C9414425EE600547F77 /* LH_APP_BLACK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LH_APP_BLACK.png; sourceTree = "<group>"; };
+		428B1C9514425EE600547F77 /* LH_APP_WHITE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LH_APP_WHITE.png; sourceTree = "<group>"; };
+		428B1C9614425EE600547F77 /* roboticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roboticon.png; sourceTree = "<group>"; };
 		F49858E614425D7B00B93DAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
 		F49F08B5143EF706003F9FD3 /* iPad test app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPad test app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49F08B9143EF706003F9FD3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -54,6 +68,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		428B1C9F14425EED00547F77 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				428B1C9014425EE600547F77 /* 20-gear2.png */,
+				428B1C9114425EE600547F77 /* 101-gameplan.png */,
+				428B1C9214425EE600547F77 /* 122-stats.png */,
+				428B1C9314425EE600547F77 /* Default-Portrait~ipad.png */,
+				428B1C9414425EE600547F77 /* LH_APP_BLACK.png */,
+				428B1C9514425EE600547F77 /* LH_APP_WHITE.png */,
+				428B1C9614425EE600547F77 /* roboticon.png */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
 		F49F08AA143EF706003F9FD3 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +121,7 @@
 				F49F08D2143EF706003F9FD3 /* SecondViewController.m */,
 				F49F08D4143EF706003F9FD3 /* FirstView.xib */,
 				F49858E514425D7B00B93DAB /* SecondView.xib */,
+				428B1C9F14425EED00547F77 /* Media */,
 				F49F08C0143EF706003F9FD3 /* Supporting Files */,
 			);
 			path = "iPad test app";
@@ -160,6 +189,13 @@
 				F49F08CD143EF706003F9FD3 /* MainWindow.xib in Resources */,
 				F49F08D6143EF706003F9FD3 /* FirstView.xib in Resources */,
 				F49858E714425D7B00B93DAB /* SecondView.xib in Resources */,
+				428B1C9714425EE600547F77 /* 20-gear2.png in Resources */,
+				428B1C9814425EE600547F77 /* 101-gameplan.png in Resources */,
+				428B1C9914425EE600547F77 /* 122-stats.png in Resources */,
+				428B1C9A14425EE600547F77 /* Default-Portrait~ipad.png in Resources */,
+				428B1C9B14425EE600547F77 /* LH_APP_BLACK.png in Resources */,
+				428B1C9C14425EE600547F77 /* LH_APP_WHITE.png in Resources */,
+				428B1C9D14425EE600547F77 /* roboticon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
