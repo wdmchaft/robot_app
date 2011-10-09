@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F40C9675144238E0009E727B /* ForumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F40C9673144238E0009E727B /* ForumViewController.m */; };
+		F40C9676144238E0009E727B /* ForumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F40C9674144238E0009E727B /* ForumViewController.xib */; };
+		F40C967814423D0A009E727B /* 152-rolodex.png in Resources */ = {isa = PBXBuildFile; fileRef = F40C967714423D0A009E727B /* 152-rolodex.png */; };
+		F40C967B144246ED009E727B /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = F40C9679144246ED009E727B /* checked.png */; };
+		F40C967C144246ED009E727B /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = F40C967A144246ED009E727B /* unchecked.png */; };
 		F43C077E1440633700D31869 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F43C077D1440633700D31869 /* Default@2x.png */; };
 		F43C078114406B3200D31869 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F43C078014406B3200D31869 /* Default.png */; };
 		F4550769143FCADB00F5378A /* irc_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F4550768143FCADB00F5378A /* irc_button.png */; };
@@ -37,6 +42,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F40C9672144238E0009E727B /* ForumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForumViewController.h; path = ../ForumViewController.h; sourceTree = "<group>"; };
+		F40C9673144238E0009E727B /* ForumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForumViewController.m; path = ../ForumViewController.m; sourceTree = "<group>"; };
+		F40C9674144238E0009E727B /* ForumViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ForumViewController.xib; path = ../ForumViewController.xib; sourceTree = "<group>"; };
+		F40C967714423D0A009E727B /* 152-rolodex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "152-rolodex.png"; sourceTree = "<group>"; };
+		F40C9679144246ED009E727B /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		F40C967A144246ED009E727B /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
 		F43C077D1440633700D31869 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		F43C078014406B3200D31869 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F4550768143FCADB00F5378A /* irc_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = irc_button.png; sourceTree = "<group>"; };
@@ -92,6 +103,9 @@
 		F455076A143FCAE300F5378A /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				F40C9679144246ED009E727B /* checked.png */,
+				F40C967A144246ED009E727B /* unchecked.png */,
+				F40C967714423D0A009E727B /* 152-rolodex.png */,
 				F43C077D1440633700D31869 /* Default@2x.png */,
 				F4550777143FE19000F5378A /* pg_icon.png */,
 				F4550775143FD11300F5378A /* Screenshot.png */,
@@ -149,11 +163,14 @@
 				F4E31B30143FC31600F5A25D /* SettingsViewController.m */,
 				F4E31B35143FC93900F5A25D /* IRCView.h */,
 				F4E31B36143FC93900F5A25D /* IRCView.m */,
+				F40C9672144238E0009E727B /* ForumViewController.h */,
+				F40C9673144238E0009E727B /* ForumViewController.m */,
 				F4E31B1C143FBF8B00F5A25D /* Overview.xib */,
 				F4E31B1F143FBF8B00F5A25D /* LiveView.xib */,
 				F4E31B27143FC2E200F5A25D /* ChatView.xib */,
 				F4E31B29143FC2E200F5A25D /* SettingsView.xib */,
 				F4E31B37143FC93900F5A25D /* IRCView.xib */,
+				F40C9674144238E0009E727B /* ForumViewController.xib */,
 				F455076A143FCAE300F5378A /* Media */,
 				F4E31B08143FBF8A00F5A25D /* Supporting Files */,
 			);
@@ -235,6 +252,10 @@
 				F4550778143FE19000F5378A /* pg_icon.png in Resources */,
 				F43C077E1440633700D31869 /* Default@2x.png in Resources */,
 				F43C078114406B3200D31869 /* Default.png in Resources */,
+				F40C9676144238E0009E727B /* ForumViewController.xib in Resources */,
+				F40C967814423D0A009E727B /* 152-rolodex.png in Resources */,
+				F40C967B144246ED009E727B /* checked.png in Resources */,
+				F40C967C144246ED009E727B /* unchecked.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +273,7 @@
 				F4E31B31143FC31600F5A25D /* ChatViewController.m in Sources */,
 				F4E31B32143FC31600F5A25D /* SettingsViewController.m in Sources */,
 				F4E31B38143FC93900F5A25D /* IRCView.m in Sources */,
+				F40C9675144238E0009E727B /* ForumViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

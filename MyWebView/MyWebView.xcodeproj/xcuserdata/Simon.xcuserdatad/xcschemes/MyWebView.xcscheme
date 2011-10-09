@@ -13,10 +13,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F4E31AFC143FBF8A00F5A25D"
-               BuildableName = "PG Remote.app"
-               BlueprintName = "Peegee"
-               ReferencedContainer = "container:Peegee.xcodeproj">
+               BlueprintIdentifier = "F46431751442333000896F5D"
+               BuildableName = "MyWebView.app"
+               BlueprintName = "MyWebView"
+               ReferencedContainer = "container:MyWebView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -38,10 +38,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F4E31AFC143FBF8A00F5A25D"
-            BuildableName = "PG Remote.app"
-            BlueprintName = "Peegee"
-            ReferencedContainer = "container:Peegee.xcodeproj">
+            BlueprintIdentifier = "F46431751442333000896F5D"
+            BuildableName = "MyWebView.app"
+            BlueprintName = "MyWebView"
+            ReferencedContainer = "container:MyWebView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F4E31AFC143FBF8A00F5A25D"
-            BuildableName = "PG Remote.app"
-            BlueprintName = "Peegee"
-            ReferencedContainer = "container:Peegee.xcodeproj">
+            BlueprintIdentifier = "F46431751442333000896F5D"
+            BuildableName = "MyWebView.app"
+            BlueprintName = "MyWebView"
+            ReferencedContainer = "container:MyWebView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

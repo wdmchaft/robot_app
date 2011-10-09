@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F464317B1442333000896F5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F464317A1442333000896F5D /* UIKit.framework */; };
+		F464317D1442333000896F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F464317C1442333000896F5D /* Foundation.framework */; };
+		F464317F1442333000896F5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F464317E1442333000896F5D /* CoreGraphics.framework */; };
+		F46431851442333000896F5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F46431831442333000896F5D /* InfoPlist.strings */; };
+		F46431871442333000896F5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F46431861442333000896F5D /* main.m */; };
+		F464318B1442333000896F5D /* MyWebViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F464318A1442333000896F5D /* MyWebViewAppDelegate.m */; };
+		F464318E1442333000896F5D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F464318C1442333000896F5D /* MainWindow.xib */; };
+		F46431911442333000896F5D /* MyWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F46431901442333000896F5D /* MyWebViewViewController.m */; };
+		F46431941442333000896F5D /* MyWebViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F46431921442333000896F5D /* MyWebViewViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F46431761442333000896F5D /* MyWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F464317A1442333000896F5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F464317C1442333000896F5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F464317E1442333000896F5D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F46431821442333000896F5D /* MyWebView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyWebView-Info.plist"; sourceTree = "<group>"; };
+		F46431841442333000896F5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F46431861442333000896F5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F46431881442333000896F5D /* MyWebView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyWebView-Prefix.pch"; sourceTree = "<group>"; };
+		F46431891442333000896F5D /* MyWebViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWebViewAppDelegate.h; sourceTree = "<group>"; };
+		F464318A1442333000896F5D /* MyWebViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWebViewAppDelegate.m; sourceTree = "<group>"; };
+		F464318D1442333000896F5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F464318F1442333000896F5D /* MyWebViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWebViewViewController.h; sourceTree = "<group>"; };
+		F46431901442333000896F5D /* MyWebViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWebViewViewController.m; sourceTree = "<group>"; };
+		F46431931442333000896F5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyWebViewViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F46431731442333000896F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F464317B1442333000896F5D /* UIKit.framework in Frameworks */,
+				F464317D1442333000896F5D /* Foundation.framework in Frameworks */,
+				F464317F1442333000896F5D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F464316B1442333000896F5D = {
+			isa = PBXGroup;
+			children = (
+				F46431801442333000896F5D /* MyWebView */,
+				F46431791442333000896F5D /* Frameworks */,
+				F46431771442333000896F5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F46431771442333000896F5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F46431761442333000896F5D /* MyWebView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F46431791442333000896F5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F464317A1442333000896F5D /* UIKit.framework */,
+				F464317C1442333000896F5D /* Foundation.framework */,
+				F464317E1442333000896F5D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F46431801442333000896F5D /* MyWebView */ = {
+			isa = PBXGroup;
+			children = (
+				F46431891442333000896F5D /* MyWebViewAppDelegate.h */,
+				F464318A1442333000896F5D /* MyWebViewAppDelegate.m */,
+				F464318C1442333000896F5D /* MainWindow.xib */,
+				F464318F1442333000896F5D /* MyWebViewViewController.h */,
+				F46431901442333000896F5D /* MyWebViewViewController.m */,
+				F46431921442333000896F5D /* MyWebViewViewController.xib */,
+				F46431811442333000896F5D /* Supporting Files */,
+			);
+			path = MyWebView;
+			sourceTree = "<group>";
+		};
+		F46431811442333000896F5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F46431821442333000896F5D /* MyWebView-Info.plist */,
+				F46431831442333000896F5D /* InfoPlist.strings */,
+				F46431861442333000896F5D /* main.m */,
+				F46431881442333000896F5D /* MyWebView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F46431751442333000896F5D /* MyWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46431971442333000896F5D /* Build configuration list for PBXNativeTarget "MyWebView" */;
+			buildPhases = (
+				F46431721442333000896F5D /* Sources */,
+				F46431731442333000896F5D /* Frameworks */,
+				F46431741442333000896F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyWebView;
+			productName = MyWebView;
+			productReference = F46431761442333000896F5D /* MyWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F464316D1442333000896F5D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F46431701442333000896F5D /* Build configuration list for PBXProject "MyWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F464316B1442333000896F5D;
+			productRefGroup = F46431771442333000896F5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F46431751442333000896F5D /* MyWebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F46431741442333000896F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46431851442333000896F5D /* InfoPlist.strings in Resources */,
+				F464318E1442333000896F5D /* MainWindow.xib in Resources */,
+				F46431941442333000896F5D /* MyWebViewViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F46431721442333000896F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46431871442333000896F5D /* main.m in Sources */,
+				F464318B1442333000896F5D /* MyWebViewAppDelegate.m in Sources */,
+				F46431911442333000896F5D /* MyWebViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F46431831442333000896F5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46431841442333000896F5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F464318C1442333000896F5D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F464318D1442333000896F5D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F46431921442333000896F5D /* MyWebViewViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46431931442333000896F5D /* en */,
+			);
+			name = MyWebViewViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F46431951442333000896F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F46431961442333000896F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F46431981442333000896F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyWebView/MyWebView-Prefix.pch";
+				INFOPLIST_FILE = "MyWebView/MyWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F46431991442333000896F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyWebView/MyWebView-Prefix.pch";
+				INFOPLIST_FILE = "MyWebView/MyWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F46431701442333000896F5D /* Build configuration list for PBXProject "MyWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46431951442333000896F5D /* Debug */,
+				F46431961442333000896F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46431971442333000896F5D /* Build configuration list for PBXNativeTarget "MyWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46431981442333000896F5D /* Debug */,
+				F46431991442333000896F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F464316D1442333000896F5D /* Project object */;
+}
