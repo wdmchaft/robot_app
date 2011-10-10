@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F49F08B4143EF706003F9FD3"
-               BuildableName = "iPad test app.app"
+               BuildableName = "FlexRob iStudio.app"
                BlueprintName = "iPad test app"
                ReferencedContainer = "container:iPad test app.xcodeproj">
             </BuildableReference>
@@ -39,7 +39,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F49F08B4143EF706003F9FD3"
-            BuildableName = "iPad test app.app"
+            BuildableName = "FlexRob iStudio.app"
             BlueprintName = "iPad test app"
             ReferencedContainer = "container:iPad test app.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F49F08B4143EF706003F9FD3"
-            BuildableName = "iPad test app.app"
+            BuildableName = "FlexRob iStudio.app"
             BlueprintName = "iPad test app"
             ReferencedContainer = "container:iPad test app.xcodeproj">
          </BuildableReference>
