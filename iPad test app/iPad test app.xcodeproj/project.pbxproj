@@ -14,6 +14,9 @@
 		428B1C9B14425EE600547F77 /* LH_APP_BLACK.png in Resources */ = {isa = PBXBuildFile; fileRef = 428B1C9414425EE600547F77 /* LH_APP_BLACK.png */; };
 		428B1C9C14425EE600547F77 /* LH_APP_WHITE.png in Resources */ = {isa = PBXBuildFile; fileRef = 428B1C9514425EE600547F77 /* LH_APP_WHITE.png */; };
 		428B1C9D14425EE600547F77 /* roboticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 428B1C9614425EE600547F77 /* roboticon.png */; };
+		F46B55B8144C5AF5009A3D95 /* simon.png in Resources */ = {isa = PBXBuildFile; fileRef = F46B55B7144C5AF5009A3D95 /* simon.png */; };
+		F46B55BA144C5B3F009A3D95 /* simon copy.png in Resources */ = {isa = PBXBuildFile; fileRef = F46B55B9144C5B3F009A3D95 /* simon copy.png */; };
+		F46B55BC144C5DAF009A3D95 /* simon_high.png in Resources */ = {isa = PBXBuildFile; fileRef = F46B55BB144C5DAF009A3D95 /* simon_high.png */; };
 		F49858E714425D7B00B93DAB /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49858E514425D7B00B93DAB /* SecondView.xib */; };
 		F49B78BA14426063009072B0 /* 117-todo.png in Resources */ = {isa = PBXBuildFile; fileRef = F49B78B914426063009072B0 /* 117-todo.png */; };
 		F49B78BD1442607E009072B0 /* 139-flags.png in Resources */ = {isa = PBXBuildFile; fileRef = F49B78BC1442607E009072B0 /* 139-flags.png */; };
@@ -27,7 +30,7 @@
 		F49F08CD143EF706003F9FD3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49F08CB143EF706003F9FD3 /* MainWindow.xib */; };
 		F49F08D0143EF706003F9FD3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F08CF143EF706003F9FD3 /* FirstViewController.m */; };
 		F49F08D3143EF706003F9FD3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F08D2143EF706003F9FD3 /* SecondViewController.m */; };
-		F49F08D6143EF706003F9FD3 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49F08D4143EF706003F9FD3 /* FirstView.xib */; };
+		F49F08D6143EF706003F9FD3 /* TaskCompositionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49F08D4143EF706003F9FD3 /* TaskCompositionView.xib */; };
 		F4BF49D5144269930028681B /* LH_APP_BLACK.png in Resources */ = {isa = PBXBuildFile; fileRef = F4BF49D4144269930028681B /* LH_APP_BLACK.png */; };
 		F4BF49D8144269AD0028681B /* LH_APP_WHITE.png in Resources */ = {isa = PBXBuildFile; fileRef = F4BF49D7144269AD0028681B /* LH_APP_WHITE.png */; };
 		F4BF49DC14426A260028681B /* SkillsLibView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BF49DA14426A260028681B /* SkillsLibView.m */; };
@@ -44,6 +47,9 @@
 		428B1C9414425EE600547F77 /* LH_APP_BLACK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LH_APP_BLACK.png; sourceTree = "<group>"; };
 		428B1C9514425EE600547F77 /* LH_APP_WHITE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LH_APP_WHITE.png; sourceTree = "<group>"; };
 		428B1C9614425EE600547F77 /* roboticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roboticon.png; sourceTree = "<group>"; };
+		F46B55B7144C5AF5009A3D95 /* simon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simon.png; sourceTree = "<group>"; };
+		F46B55B9144C5B3F009A3D95 /* simon copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "simon copy.png"; sourceTree = "<group>"; };
+		F46B55BB144C5DAF009A3D95 /* simon_high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simon_high.png; sourceTree = "<group>"; };
 		F49858E614425D7B00B93DAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
 		F49B78B914426063009072B0 /* 117-todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "117-todo.png"; sourceTree = "<group>"; };
 		F49B78BC1442607E009072B0 /* 139-flags.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "139-flags.png"; sourceTree = "<group>"; };
@@ -63,7 +69,7 @@
 		F49F08CF143EF706003F9FD3 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		F49F08D1143EF706003F9FD3 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		F49F08D2143EF706003F9FD3 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		F49F08D5143EF706003F9FD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		F49F08D5143EF706003F9FD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TaskCompositionView.xib; sourceTree = "<group>"; };
 		F4BF49D4144269930028681B /* LH_APP_BLACK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LH_APP_BLACK.png; sourceTree = "<group>"; };
 		F4BF49D7144269AD0028681B /* LH_APP_WHITE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LH_APP_WHITE.png; sourceTree = "<group>"; };
 		F4BF49D914426A260028681B /* SkillsLibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkillsLibView.h; sourceTree = "<group>"; };
@@ -91,6 +97,9 @@
 		428B1C9F14425EED00547F77 /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				F46B55BB144C5DAF009A3D95 /* simon_high.png */,
+				F46B55B9144C5B3F009A3D95 /* simon copy.png */,
+				F46B55B7144C5AF5009A3D95 /* simon.png */,
 				F49B78BE144260D0009072B0 /* 06-magnify.png */,
 				F49B78BC1442607E009072B0 /* 139-flags.png */,
 				F49B78B914426063009072B0 /* 117-todo.png */,
@@ -148,7 +157,7 @@
 				F49F08D2143EF706003F9FD3 /* SecondViewController.m */,
 				F4BF49DE14426AD50028681B /* HelpView.h */,
 				F4BF49DF14426AD50028681B /* HelpView.m */,
-				F49F08D4143EF706003F9FD3 /* FirstView.xib */,
+				F49F08D4143EF706003F9FD3 /* TaskCompositionView.xib */,
 				F4BF49DB14426A260028681B /* SkillsLibView.xib */,
 				F49858E514425D7B00B93DAB /* SecondView.xib */,
 				F4BF49E014426AD50028681B /* HelpView.xib */,
@@ -194,6 +203,9 @@
 /* Begin PBXProject section */
 		F49F08AC143EF706003F9FD3 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = F49F08AF143EF706003F9FD3 /* Build configuration list for PBXProject "iPad test app" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -218,7 +230,7 @@
 			files = (
 				F49F08C4143EF706003F9FD3 /* InfoPlist.strings in Resources */,
 				F49F08CD143EF706003F9FD3 /* MainWindow.xib in Resources */,
-				F49F08D6143EF706003F9FD3 /* FirstView.xib in Resources */,
+				F49F08D6143EF706003F9FD3 /* TaskCompositionView.xib in Resources */,
 				F49858E714425D7B00B93DAB /* SecondView.xib in Resources */,
 				428B1C9714425EE600547F77 /* 20-gear2.png in Resources */,
 				428B1C9814425EE600547F77 /* 101-gameplan.png in Resources */,
@@ -234,6 +246,9 @@
 				F4BF49D8144269AD0028681B /* LH_APP_WHITE.png in Resources */,
 				F4BF49DD14426A260028681B /* SkillsLibView.xib in Resources */,
 				F4BF49E214426AD50028681B /* HelpView.xib in Resources */,
+				F46B55B8144C5AF5009A3D95 /* simon.png in Resources */,
+				F46B55BA144C5B3F009A3D95 /* simon copy.png in Resources */,
+				F46B55BC144C5DAF009A3D95 /* simon_high.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,12 +295,12 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		F49F08D4143EF706003F9FD3 /* FirstView.xib */ = {
+		F49F08D4143EF706003F9FD3 /* TaskCompositionView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F49F08D5143EF706003F9FD3 /* en */,
 			);
-			name = FirstView.xib;
+			name = TaskCompositionView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -341,6 +356,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPad test app/iPad test app-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "iPad test app/iPad test app-Info.plist";
 				PRODUCT_NAME = "FlexRob iStudio";
 				WRAPPER_EXTENSION = app;
@@ -352,6 +368,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPad test app/iPad test app-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "iPad test app/iPad test app-Info.plist";
 				PRODUCT_NAME = "FlexRob iStudio";
 				WRAPPER_EXTENSION = app;
